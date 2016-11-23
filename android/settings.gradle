@@ -1,0 +1,15 @@
+rootProject.name = 'AwesomeProject'
+
+include ':react-native-material-kit'
+include ':app'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+include ':ijkplayer-armv7a'
+include ':ijkplayer-java'
+include ':ijkplayer-exo'
+
+
+
+
+
+
+
